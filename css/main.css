@@ -324,6 +324,20 @@ template {
   height: 100vh;
   font-size: 0;
 }
+.header .header__mouse {
+  position: absolute;
+  display: inline-block;
+  padding: 0;
+  margin: 0;
+  line-height: 0;
+  width: 45px;
+  height: 67px;
+  background-image: url(../img/mouse-icon.png);
+  cursor: pointer;
+  top: 90%;
+  left: 49%;
+  outline-style: none;
+}
 .logo,
 .hamburger-menu {
   display: inline-block;
@@ -342,6 +356,7 @@ template {
   font-weight: 600;
   text-align: right;
   cursor: pointer;
+  text-decoration: none;
 }
 .hamburger-menu:hover {
   color: #ffcc00;
