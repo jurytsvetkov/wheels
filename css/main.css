@@ -865,6 +865,10 @@ template {
   text-decoration: none;
   color: #fff;
 }
+.open-hamburger a:hover {
+  color: #ffcc00;
+  transition: 0.2s;
+}
 .display {
   display: block;
 }

@@ -9,4 +9,12 @@ $(document).ready(function() {
     $("#navigator").sticky({topSpacing:0});
     
     //hamburger-nav
+    $('.hamburger-menu').click(function () {
+        $(".open-hamburger").addClass('display');
+    });
+    
+    $('.menu-button').click(function () {
+        $(".open-hamburger").removeClass('display');
+    });
+    
 });
