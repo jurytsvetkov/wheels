@@ -5,8 +5,8 @@ $(document).ready(function() {
 	    highlightSelector:"nav a"
 	});
     
-    $(document).ready(function(){
-        $("#navigator").sticky({topSpacing:0});
-    });
+    //stickyjs
+    $("#navigator").sticky({topSpacing:0});
     
-}); 
+    //hamburger-nav
+});
