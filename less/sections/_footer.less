@@ -1,0 +1,104 @@
+.footer {
+    color: #ededed;
+    background-color: #1e1e1e;
+    text-transform: uppercase;
+    
+    font-size: 0;
+    padding-top: 28px;
+    padding-bottom: 82px;
+    
+    .footer__heading {
+        font-size: 30px;
+        font-weight: 800;
+        text-align: center;
+        letter-spacing: 3px;
+    }
+
+    .footer__desc {
+        color: #9d9d9d;
+        font-size: 18px;
+        font-weight: 600;
+        text-align: center;
+        
+        margin-top: -6px;
+        line-height: 1.6;
+        letter-spacing: 2px;
+    }
+    
+    .footer__info {
+        padding-top: 33px;
+    }
+    
+    .footer__col {
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+        text-align: center;
+        
+        .footer__col-heading {
+            font-size: 18px;
+            font-weight: 900;
+            text-align: left;
+            margin-bottom: 33px;
+            line-height: 0;
+            letter-spacing: 2px;
+        }
+        
+        a {
+            color: #ededed;
+            text-decoration: none;
+            
+            &:hover {
+                color: #ffcc00;
+                transition: 0.2s;
+            }
+        }
+        
+        i {
+            font-size: 36px;
+            padding-right: 16px;
+            cursor: pointer;
+            
+            &:hover {
+                color: #ffcc00;
+                transition: 0.2s;
+            }
+        }
+        
+        ul {
+            padding: 0;
+            margin: 0;
+            text-align: left;
+        }
+        
+        li {
+            padding: 0 0 10px 0;
+            margin: 0;
+            list-style-type: none;
+            font-size: 18px;
+            font-weight: 600;
+        }
+    }
+    
+    .footer__col-foil {
+        display: inline-block;
+    }
+    
+    .socials {
+        text-align: left;
+    }
+    
+    .map {
+        display: block;
+        
+        width: 291px;
+        height: 205px;
+        
+        background: url(../img/google-maps.jpg);
+        cursor: pointer;
+        
+        &:hover {
+           background: url(../img/google-maps-color.jpg); 
+        }
+    }
+}

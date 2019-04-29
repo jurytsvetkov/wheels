@@ -1,0 +1,66 @@
+.nav {
+    -webkit-box-shadow: 0px -20px 75px -7px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -20px 75px -7px rgba(0,0,0,0.75);
+    box-shadow: 0px -20px 75px -7px rgba(0,0,0,0.75);
+    background: #fff;
+    letter-spacing: 3px;
+    
+    a {
+        text-decoration: none;
+        color: #000;
+        
+        &:hover {
+            color: #ffcc00;
+            transition: 0.2s;
+        }
+    }
+}
+
+.nav__logo {
+    display: inline-block;
+    padding: 24px 0;
+    
+    color: #1c1c1c;
+    font-size: 30px;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.nav__menu {
+    display: inline-block;
+    float: right;
+    padding-top: 36px;
+    
+    
+    ul {
+        display:table-cell;
+        padding: 0;
+        margin: 0;
+        
+        li {
+            padding: 0 75px 0 0;
+            margin: 0;
+            
+            &:last-child {
+                padding: 0;
+            }
+            
+            a {
+                color: #3b3b3b;
+                text-decoration: none;
+                
+                &:hover {
+                    color: #ffcc00;
+                    transition: 0.2s;
+                }
+            }
+            
+            display: inline-block;
+            list-style-type: none;
+            
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+        }
+    }
+}
