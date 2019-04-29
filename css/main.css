@@ -338,6 +338,11 @@ template {
   left: 49%;
   outline-style: none;
 }
+@media (max-width: 1366px) {
+  .header .header__mouse {
+    display: none;
+  }
+}
 .logo,
 .hamburger-menu {
   display: inline-block;
@@ -363,9 +368,12 @@ template {
   transition: 0.2s;
 }
 .greeting {
-  margin-top: 367px;
+  position: absolute;
+  top: 44%;
+  right: 9%;
   color: #ededed;
   text-align: right;
+  margin-bottom: 20px;
 }
 .greeting__heading {
   text-transform: uppercase;

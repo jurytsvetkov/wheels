@@ -23,6 +23,9 @@
         left: 49%;
         outline-style: none;
         
+        @media (max-width: 1366px) {
+            display: none;
+        }
     }
 }
 
@@ -55,10 +58,17 @@
 }
 
 .greeting {
-    margin-top: 367px;
+//    margin-top: 367px;
+    
+    position: absolute;
+    
+    top: 44%;
+    right: 9%;
     
     color: #ededed;
     text-align: right;
+    
+    margin-bottom: 20px;
 }
 
 .greeting__heading {
