@@ -24,4 +24,24 @@
     width: 1150px;
 }
 
-//120, 160, 240, 320, 360, 480, 540, 576, 600, 640, 720, 768, 800, 864, 900, 960, 1024, 1050, 1080, 1152, 1200, 1440, 1536, 1600, 1620, 1800, 2048, 2160, 2400, 3072, 3200, 3240, 4096, 4320, 4800.
+/* @media < 1600px */
+
+@media (max-width: 1600px) {
+
+    .container, .container-header, .container-slim, .container-extra-slim  {
+        max-width: 1300px;
+    }
+    
+    .container-header {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+}
+
+/* @media < 1366px */
+
+@media (max-width: 1366px) {
+    .container, .container-header, .container-slim, .container-extra-slim  {
+        width: auto;
+    }
+}
