@@ -684,7 +684,14 @@ template {
 }
 @media (max-width: 1600px) {
   .showcase .showcase__img-box {
+    width: 40%;
+    margin-bottom: 25px;
+  }
+}
+@media (max-width: 1366px) {
+  .showcase .showcase__img-box {
     width: 100%;
+    margin-bottom: 25px;
   }
 }
 .showcase .follow {
@@ -871,6 +878,12 @@ template {
 .open-hamburger a:hover {
   color: #ffcc00;
   transition: 0.2s;
+}
+.open-hamburger .close-button {
+  position: absolute;
+  top: -50px;
+  right: -50px;
+  cursor: pointer;
 }
 .display {
   display: block;
