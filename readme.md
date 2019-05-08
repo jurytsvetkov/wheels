@@ -9,7 +9,7 @@
 - Навигация по странице, плавный page scroll
 - Мобильная навигация
 
-[**Онлайн демо**] (https://crimsonweb.ru/portfolio/wheels/)
+[**Онлайн демо**](https://crimsonweb.ru/portfolio/wheels/)
 
 ### Тестировать локально
 
