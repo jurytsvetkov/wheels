@@ -748,6 +748,7 @@ template {
 }
 @media (max-width: 640px) {
   .footer .footer__col {
+    text-align: left;
     width: 100%;
     padding-top: 50px;
   }
@@ -791,6 +792,11 @@ template {
 }
 .footer .footer__col-foil {
   display: inline-block;
+}
+@media (max-width: 640px) {
+  .footer .footer__col-foil {
+    padding-left: 25%;
+  }
 }
 .footer .socials {
   text-align: left;
